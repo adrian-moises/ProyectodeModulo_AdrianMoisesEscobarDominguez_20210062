@@ -1,0 +1,7 @@
+package proyectomodulo_adrianEscobar_20210062.proyectomodulo_adrianEscobar_20210062.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import proyectomodulo_adrianEscobar_20210062.proyectomodulo_adrianEscobar_20210062.Entity.EntityLibros;
+
+public interface LibroRepository  extends JpaRepository<EntityLibros,Long> {
+}
